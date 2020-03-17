@@ -1,1 +1,0 @@
-# stayhomehack.com
