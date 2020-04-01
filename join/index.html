@@ -11,7 +11,7 @@
         redirect_url = "https://docs.google.com/forms/d/e/1FAIpQLSdZupaI3AQm4vvYS_Xmrvb6db_D2KiFsez8mqzb4WYwI6AGUg/viewform?usp=pp_url";
         url = new URL(redirect_url);
         search = new URLSearchParams(url.search);
-        if (urlParams.has('ref') {
+        if (urlParams.has('ref')) {
             search.set('entry.1359389251', urlParams.get('ref'));
         }
         url.search = search.toString();
